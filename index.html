@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver_car</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+
+        <header>
+            <section class="header_top">
+                <div class="logo">
+                    <img class="main_logo" src="./img/main_logo.png" alt="logo">
+                    <div class="sub_logo">
+                        <img src="./img/Geo.svg" alt="geo">
+                        <div class="city">Магнитогорск</div>
+                    </div>
+                </div>
+                <nav>
+                    <div class="input_block">
+                        <input type="search">
+                        <img class="search" src="./img/Group 45.png" alt="search">
+                    </div>
+                    <div class="tel_block">
+                        <div class="tel">
+                            <div class="tel_number">8-800-123-45-67</div>
+                            <div class="tel_text">Многоканальный</div>
+                        </div>
+                        <button>Обратный звонок</button>
+                    </div>
+                </nav>
+                <ul class="ul_level_1">
+                    <li> 
+                        <a href="#">Каталог</a> 
+                        <ul class="sub_ul">
+                            <!-- <span class="sub_ul_close">
+                                <img src="./img/window_close_icon_135015.svg" alt="close">
+                            </span> -->
+                            <li class="sub_ul_li">
+                                <a class="first-child" href="#">Все автомобили (2587)</a>
+                                <div class="sub_img">
+                                    <img class="sub_arrow" src="./img/sub_ul_arrow.png" alt="arrow">
+                                </div>
+                             </li>
+                            <li class="sub_ul_li new_car">
+                                <a href="#">Новые автомобили (1874)</a>
+                                <div class="sub_img">
+                                    <img class="sub_arrow" src="./img/sub_ul_arrow.png" alt="arrow">
+                                </div>
+                                <ul class="sub_level_3">
+                                    <li class="sub_ul_level_3_li">
+                                        <a href="#">Новые автомобили в Магнитогорске (4567)</a>
+                                        <div class="sub_img">
+                                            <img class="sub_arrow-3" src="./img/sub_ul_arrow.png" alt="arrow">
+                                        </div>
+                                        <ul class="sub_menu_4_photo">
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_1.png" alt="bmw">
+                                                    <div class="photo_name">BMW</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_2.png" alt="Geely">
+                                                    <div class="photo_name">Geely</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_3.png" alt="KIA">
+                                                    <div class="photo_name">KIA</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_4.png" alt="Mazda">
+                                                    <div class="photo_name">Mazda</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_5.png" alt="Mercedes">
+                                                    <div class="photo_name">Mercedes</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_6.png" alt="Chevrolet">
+                                                    <div class="photo_name">Chevrolet</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_7.png" alt="Hyundai">
+                                                    <div class="photo_name">Hyundai</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_8.png" alt="LADA">
+                                                    <div class="photo_name">LADA</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_9.png" alt="Mitsubishi">
+                                                    <div class="photo_name">Mitsubishi</div>
+                                                </a>
+                                            </li>
+                                            <li class="sub_4_li_photo">
+                                                <a href="#">
+                                                    <img src="./img/sub_4_10.png" alt="UAZ">
+                                                    <div class="photo_name">UAZ</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_ul_level_3_li">
+                                        <a href="#">Новые автомобили в Челябинске (156)</a>
+                                        <div class="sub_img">
+                                            <img class="sub_arrow-3" src="./img/sub_ul_arrow.png" alt="arrow">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub_ul_li">
+                                <a href="#">Автомобили с пробегом (713)</a>
+                                <div class="sub_img">
+                                    <img class="sub_arrow" src="./img/sub_ul_arrow.png" alt="arrow">
+                                </div>
+                            </li>
+                            <li class="sub_ul_li">
+                                <a href="#">Новые автомобили до 1 000 000 рублей</a>
+                                <div class="sub_img">
+                                    <img class="sub_arrow" src="./img/sub_ul_arrow.png" alt="arrow">
+                                </div>
+                            </li>
+                            <li class="sub_ul_li">
+                                <a href="#">Автомобили с пробегом до 500 000 рублей</a>
+                                <div class="sub_img">
+                                    <img class="sub_arrow" src="./img/sub_ul_arrow.png" alt="arrow">
+                                </div>
+                            </li>
+                            <li class="sub_ul_li">
+                                <a href="#">Сертифицированные автомобили (157)</a>
+                                <div class="sub_img">
+                                    <img class="sub_arrow" src="./img/sub_ul_arrow.png" alt="arrow">
+                                </div>
+                            </li>
+                            <li class="sub_ul_li">
+                                <a href="#">Необычные автомобили</a>
+                                <div class="sub_img">
+                                    <img class="sub_arrow" src="./img/sub_ul_arrow.png" alt="arrow">
+                                </div>
+                            </li>
+                            <li class="sub_ul_li">
+                                <a href="#">Коммерческий транпорт</a>
+                                <div class="sub_img">
+                                    <img class="sub_arrow" src="./img/sub_ul_arrow.png" alt="arrow">
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">Спецпредложения</a> </li>
+                    <li> <a href="#">Услуги</a> </li>
+                    <li> <a href="#">Кредитование и страхование</a> </li>
+                    <li> <a href="./about_us/about_us.html">О нас</a> </li>
+                    <li> <a href="#">Карьера</a> </li>
+                    <li> <a href="#">Отзывы</a> </li>
+                    <li> <a href="#">Контакты</a> </li>
+                </ul>
+
+                <div class="header_top_text">
+                    <p>Первый раз покупаете автомобиль? Ознакомьтесь с правилами покупки. <a href="#">Подробнее</a> </p>
+                </div>
+                <hr class="header_top_hr">
+                <div class="burger_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="btn_phone">
+                    <img src="./img/burger_phone.png" alt="phone">
+                </div>
+                <ul class="mini_ul">
+                    <li> <a href="#">Избранное</a></li>
+                    <li> <a href="#">Поиск</a></li>
+                    <li> <a href="#">Сравнение</a></li>
+                </ul>
+            </section>
+            <section class="header_main">
+                <div class="record_test">
+                    <img src="./img/keys.png" alt="keys">
+                    <h1>Открыта запись на тест-драйв Kia carnival 4</h1>
+                    <button>Записаться на тест-драйв</button>
+                </div>
+                <div class="button_block">
+                    <button>Купить автомобиль</button>
+                    <button>Посмотреть спецпредложения</button>
+                    <button>Режим работы</button>
+                </div>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <div class="span_img">
+                            <img class="gallery_img" src="./img/gallery_img/mersedes.png" alt="mersedes">
+                        </div>
+                        <div class="span_img">
+                            <img class="gallery_img" src="./img/gallery_img/mazda.png" alt="mazda">
+                        </div>
+                        <div class="span_img">
+                            <img class="gallery_img" src="./img/gallery_img/mitsubishi.png" alt="mitsubishi">
+                        </div>
+                        <div class="span_img">
+                            <img class="gallery_img" src="./img/gallery_img/hyundai.png" alt="Hyundai">
+                        </div>
+                        <div class="span_img">
+                            <img class="gallery_img" src="./img/gallery_img/shevrolet.png" alt="shevrolet">
+                        </div>
+                        <div class="span_img">
+                            <img class="gallery_img" src="./img/gallery_img/bmw.png" alt="BMW">
+                        </div>
+                        <div class="span_img">
+                            <img class="gallery_img" src="./img/gallery_img/kia.png" alt="KIA">
+                        </div>
+                    </div>
+                  </div>
+                <div class="gallery">
+
+                </div>
+            </section>
+
+            <section class="header_footer">
+                <div class="header_footer_inner">
+                    <div class="reviews">
+                        <img src="./img/stars.png" alt="stars">
+                        <p>Олег из Магнитогорска</p>
+                        <p>«Приехали в салон за 1000 км от Магнитогорска. До этого... »</p>
+                    </div>
+                    <p> <a href="#">Все отзывы</a> </p>
+                </div>
+            </section>
+        </header>
+
+        <main>
+
+            <section class="presentation">
+                <div class="presentation_title">
+                    <ul>
+                        <li>Одна персона</li>
+                        <li> Одна цена</li>
+                        <li>Быстро и просто</li>
+                    </ul>
+                </div>
+                <div class="presentation_wrapper">
+                    <div class="one_person">
+                        <div class="one_person_text">
+                            <h2>Одна персона</h2>
+                            <h3>Мы исключили всех посредников, чтобы вы могли купить автомобиль напрямую</h3>
+                            <div class="text_subcribe">Мы делаем это просто, чтобы вам не пришлось ждать. Наши специалисты по продажам являются экспертами в каждой части процесса покупки автомобиля. С одним человеком, способным провести вас через весь опыт, вы в кратчайшие сроки отправитесь в путь.</div>
+                        </div>
+                    </div>
+                        <img class="bmw" src="./img/person_img.png" alt="bmw">
+                   
+                        <img class="img_sale" src="./img/price_img1.png" alt="car_sale">
+                        <img class="img_carmen" src="./img/price_img2.png" alt="man">
+
+                    <div class="one_price">
+                        <div class="one_person_text">
+                            <h2>Одна цена</h2>
+                            <h3>Получите отличную сделку. Без переговоров</h3>
+                            <div class="text_subcribe">Мы предоставляем скидки на наши автомобили и отмечаем их по самой низкой цене, которую мы можем предложить: нашим предварительным ценам. Это означает, что нет стресса; вы никогда не останетесь в недоумении, могли бы вы заключить более выгодную сделку или сколько вам придется заплатить за автомобиль. В СИЛЬВЕР вы получите отличные предложения без каких-либо проблем.</div>
+                            <button class="one_person_btn">Узнать больше о СИЛЬВЕР</button>
+                        </div>
+                    </div>
+                    <button class="one_person_btn media">Узнать больше о СИЛЬВЕР</button>
+                </div>
+            </section>
+
+            <section class="our_services">
+                <h2>Наши услуги</h2>
+                <div class="services_cards">
+                    <div class="card_item">
+                        <img src="./img/card_item1.png" alt="item_1">
+                        <h3>Сервисное <br> обслуживание</h3>
+                        <div class="text_subcribe">Запишитесь в любой дилерский центр <br> уже сегодня</div>
+                        <a class="card_item_link" href="#">Выбрать дилерский центр</a>
+                    </div>   
+                    <div class="card_item">
+                        <img src="./img/card_item2.png" alt="item_1">
+                        <h3>Спецпредложения <br> на сервисное обслуживание</h3>
+                        <div class="text_subcribe">Запишитесь в любой дилерский центр <br> уже сегодня</div>
+                        <a class="card_item_link" href="#">Выбрать дилерский центр</a>
+                    </div>  
+                    <div class="card_item">
+                        <img src="./img/card_item3.png" alt="item_1">
+                        <h3>Сервисное <br> обслуживание</h3>
+                        <div class="text_subcribe">Запишитесь в любой дилерский центр <br> уже сегодня</div>
+                        <a class="card_item_link" href="#">Выбрать дилерский центр</a>
+                    </div>  
+                </div>
+            </section>
+
+            <section class="loyalty_program">
+                <div class="loyalty_title">Программа лояльности «Мой СИЛЬВЕР»</div>
+                <div class="sub_block">
+                    <div class="loyalty_subtitle">Присоединяйтесь к программе и получайте выгоду</div>
+                    <button>Подробнее</button>
+                </div>
+                <div class="loyalty_photo">
+                    <img src="./img/loyalty1.png" alt="loyalty">
+                    <div class="loyalty_img_midlle">
+                        <img src="./img/loyalty2.png" alt="loyalty">
+                        <img class="two_cars" src="./img/loyalty3.png" alt="loyalty">
+                        <img class="bump_img" src="./img/loyalty4.png" alt="loyalty">
+                    </div>
+                    <img class="small_img" src="./img/loyalty2.png" alt="loyalty">
+                    <img class="two_cars small_img" src="./img/loyalty3.png" alt="loyalty">
+                    <img class="super_girl" src="./img/loyalty5.png" alt="loyalty">
+                </div>
+                <button class="loyalty_media_btn">Подробнее</button>
+            </section>
+
+            <section class="customer_reviews">
+                <div class="container">
+                    <div class="reviews_title">Отзывы клиентов</div>
+                    <div class="reviews_cards">
+                        <div class="reviews_card">
+                            <div class="card_top">
+                                <img src="./img/avatar1.png" alt="avatar">
+                                <div class="name_block">
+                                    <h3>Наталья <br> Иванова</h3>
+                                    <div class="expert">Местный эксперт</div> 
+                                    <img src="./img/stars_prev.png" alt="stars">
+                                </div>
+                            </div>
+                             <div class="reviews_subscribe">Замечательный автоцентр. Особенно мне понравился менеджер Уелданов Альберт. Это мастер своего дела. Рассказал подробно про все интересующие автомобили и их комплектации. Провёл отличный тест драйв. Помог подобрать автомобиль на очень выгодных условиях...</div>
+                            <div class="reviews_date">2 месяца назад</div>
+                            <a href="#">Читать отзыв на Google</a>
+                        </div>
+                        <div class="reviews_card">
+                            <div class="card_top">
+                                <img src="./img/avatar2.png" alt="avatar">
+                                <div class="name_block">
+                                    <h3>Ivan <br> Drozdov</h3>
+                                    <img src="./img/stars_prev.png" alt="stars">
+                                </div>
+                            </div>
+                             <div class="reviews_subscribe">Устранили все недостатки автомобиля по гарантии! Мастера очень старались, и выполнили асе работы на твердую "5"! Ниже, мой предыдущий отзыв оставлю, для сравнения и понятия того, что все меняются и даже иногда в лучшую сторону! Постпродажное ...</div>
+                            <div class="reviews_date">1 месяц назад</div>
+                            <a href="#">Читать отзыв на Google</a>
+                        </div>
+                        <div class="reviews_card">
+                            <div class="card_top">
+                                <img src="./img/avatar3.png" alt="avatar">
+                                <div class="name_block">
+                                    <h3>Константин <br> Константинопольский</h3>
+                                    <img src="./img/stars_prev.png" alt="stars">
+                                </div>
+                            </div>
+                             <div class="reviews_subscribe">Замечательный автоцентр. Особенно мне понравился менеджер Уелданов Альберт. Это мастер своего дела. Рассказал подробно про все интересующие автомобили и их комплектации. Провёл отличный тест драйв. Помог подобрать автомобиль на очень выгодных условиях...</div>
+                            <div class="reviews_date">1 месяц назад</div>
+                            <a href="#">Читать отзыв на Google</a>
+                        </div>
+                    </div>
+                    <div class="reviews_buttons">
+                        <button>Читать все отзывы</button>
+                        <button>Оставить отзыв</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="years">
+                <div class="container">
+                    <div class="years_old">
+                        <img src="./img/15years_1.png" alt="15years_old">
+                        <div class="years_subscribe">
+                            <div class="years_title">15+ лет  на рынке</div>
+                            <div class="years_subtitle">Высокий уровень обслуживания клиентов и постоянное совершенствование в профессиональной области</div>
+                            <div class="years_text">СИЛЬВЕР - группа официальных автомобильных дилеров брендов LADA, Hyundai, Mitsubishi, BMW, KIA, Chevrolet Niva, УАЗ, а также автомобильный гипермаркет по продаже проверенных автомобилей с пробегом. За 15 лет успешной работы компания СИЛЬВЕР зарекомендовала себя как надежный партнер для частных и корпоративных клиентов, отличающийся индивидуальным и профессиональным подходом и выгодными предложениями.</div>
+                            <button>О СИЛЬВЕР</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer_inner">
+                    <div class="footer_top">
+                        <div class="dealership">
+                            <div class="dealership_title">Посетите наши дилерские центры уже сегодня</div>
+                            <button>Выбрать дилерский центр</button>
+                            <div class="dealership_links">
+                                <a href="#"><img src="./img/wk.png" alt="wk"></a>
+                                <a href="#"><img src="./img/yuotube.png" alt="yuotube"></a>
+                                <a href="#"><img src="./img/insta.png" alt="insta"></a>
+                            </div>
+                        </div>
+                        <div class="block_ul">
+                            <ul class="catalog">
+                                <li>
+                                    <a href="#">Каталог</a>    
+                                </li>
+                                <li> <a href="#">Все автомобили</a> </li>
+                                <li> <a href="#">Новые автомобили</a> </li>
+                                <li> <a href="#">Автомобили с пробегом</a> </li>
+                                <li> <a href="#">Сертифицированные автомобили</a> </li>
+                            </ul>
+                            <ul class="catalog">
+                                <li> <a href="#">О нас</a> </li>
+                                <li> <a href="#">Блог</a> </li>
+                                <li> <a href="#">Карьера</a> </li>
+                                <li> <a href="#">Дилерские центры</a> </li>
+                                <li> <a href="#">Почему СИЛЬВЕР</a> </li>
+                            </ul>
+                            <ul class="catalog">
+                                <li> <a href="#">Помощь</a> </li>
+                                <li> <a href="#">Карта сайта</a> </li>
+                                <li> <a href="#">Связаться с нами</a> </li>
+                                <li> <a href="#">Условия продажи</a> </li>
+                                <li> <a href="#">Политика конфиденциальности</a> </li>
+                            </ul>
+                            <ul class="catalog">
+                                <li> <a href="#">Отказ от ответственности</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footer_bottom">
+                        <div class="copyryght">© СИЛЬВЕР, 2021</div>
+                        <div class="footer_bottom_text">
+                            Обращаем ваше внимание на то, что данный Интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации. Для получения подробной информации о стоимости автомобилей BMW, Hyundai,  KIA, Mitsubishi, Lada, Mazda, Chevrolet, Geely, УАЗ обращайтесь к менеджерам по продажам автоцентров «Сильвер». Для получения информации о приобретении автомобилей в кредит, страховании, техническом обслуживании и ремонте автомобилей, запасных частях, дополнительном оборудовании, аксессуарах также обращайтесь в сервисные центры и автосалоны «Сильвер».Права на сайт принадлежат ООО «Дотконтакт» (ИНН 5047059383, ОГРН 1045009553577 от 29 марта 2004 года) тел. +7 (3519) 58-36-14, адрес эл. почты reception@silver-bag.ru
+                        </div>
+                        <div class="footer_card">
+                            <a href="#"><img src="./img/visa.png" alt="visa"></a>
+                            <a href="#"><img src="./img/peace.png" alt="peace"></a>
+                            <a href="#"><img src="./img/master.png" alt="master"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+    </script>
+    <script src="slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

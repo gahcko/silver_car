@@ -1,0 +1,66 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.about {
+    padding: 48px 0 63px 0;
+}
+
+.about nav {
+    display: block;
+}
+
+nav a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #3E3EAC;
+}
+
+.about h2 {
+    margin-top: 25px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.about_descr {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 845px 429px 60px;
+    grid-template-rows: 1fr;
+}
+
+.about .years_title {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+} 
+
+.about_photo_block {
+    margin-top: 32px;
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    column-gap: 29px;
+}
+
+.about button {
+    width: 460px;
+    height: 37px;
+    margin-top: 39px;
+    cursor: pointer;
+}
