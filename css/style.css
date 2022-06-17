@@ -938,6 +938,15 @@ footer {
     margin-right: 15px;
 }
 
+.footer_sub_img img {
+    color: #fff;
+    position: absolute;
+    bottom: 13px;
+    right: 75px;
+    cursor: pointer;
+    display: none;
+}
+
 .catalog {
     font-family: 'Open Sans';
     font-weight: 600;
@@ -945,6 +954,7 @@ footer {
     line-height: 19px;
     color: #FFFFFF;
     list-style-type: none;
+    position: relative;
 }
 
 .catalog:last-child {
@@ -952,9 +962,17 @@ footer {
 }
 
 .catalog li {
-    position: relative;
     display: block;
     margin-bottom: 13px;
+}
+
+.catalog li:first-child::after {
+    content: ">";
+    position: absolute;
+    top: 8px;
+    right: -35px;
+    display: none;
+    cursor: pointer;
 }
 
 .catalog li:first-child {
@@ -963,6 +981,7 @@ footer {
     line-height: 20px;
     margin-bottom: 35px;
     margin-right: 0;
+    position: relative;
 }
 
 .block_ul ul { 
