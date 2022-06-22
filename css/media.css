@@ -559,9 +559,9 @@
         grid-template-rows: 220px auto 64px;
         background: none;
     }
-    .header_top {
-        width: 288px;
-    }
+    /* .header_top {
+        width: 400px;
+    } */
     .record_test {
         grid-template: 89px 72px / 1fr;
         background: url("../img/main_bg.png") no-repeat;
@@ -681,9 +681,22 @@
     }
 }
 
+
+@media (max-width: 342px) {
+    .header_main {
+        display: block;
+    }
+}
+
     @media (max-width: 320px) {
         .gallery {
             max-width: 288px;
+        }
+        .header_top {
+            width: 288px;
+        } 
+        .header_main {
+            width: 288px;
         }
     }
 

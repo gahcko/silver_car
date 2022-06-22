@@ -41,4 +41,17 @@
   //     subUl.style.display = 'none';
   // });
 
+	const btn_phone = document.querySelector('.btn_phone');
+	const messenger = document.querySelector('.window_messenger');
+	const messenger_close = document.querySelector('.messenger_close');
+
+	
+	btn_phone.addEventListener('click', () => {
+		messenger.classList.add('active');
+	});
+
+	messenger_close.addEventListener('click', () => {
+		messenger.classList.remove('active');
+	});
+
     

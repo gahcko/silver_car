@@ -35,6 +35,10 @@ button {
 
 /*header_top*/
 
+header {
+    z-index: 1;
+}
+
 .header_top {
     max-width: 1920px;
     background-color: #000000;
@@ -339,6 +343,98 @@ span:last-child {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+.window_messenger {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 288px;
+    background: #FFFFFF;
+    box-shadow: 0px -5px 12px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;   
+    padding: 19px 16px 17px 16px; 
+    z-index: 3;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.messenger_btn {
+    margin-top: 14px;
+    width: 258px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.messenger_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messenger_close {
+    cursor: pointer;
+}
+
+.messenger_title {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.window_messenger form {
+    margin-top: 28px;
+}
+
+.window_messenger input {
+    width: 258px;
+    background: #FFFFFF;
+    border: 1px solid #C2C4C8;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 17px;
+}
+
+.window_messenger input:first-child {
+    margin-top: 0;
+}
+
+.window_messenger input::placeholder {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #494949;
+}
+
+.messenger_politics {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+}
+
+.messenger_politics span {
+    color: #428ADE;
+}
+
+.messenger_icons {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.messenger_icons img {
+    align-self: flex-start;
 }
 
 .header_top_hr {
