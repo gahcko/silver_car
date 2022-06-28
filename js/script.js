@@ -41,17 +41,42 @@
   //     subUl.style.display = 'none';
   // });
 
+  //phone_messenger
+
 	const btn_phone = document.querySelector('.btn_phone');
+	const messenger_main = document.querySelector('.messenger_main');
 	const messenger = document.querySelector('.window_messenger');
 	const messenger_close = document.querySelector('.messenger_close');
 
 	
 	btn_phone.addEventListener('click', () => {
-		messenger.classList.add('active');
+    document.body.style.overflow = "hidden"; 
+    messenger_main.classList.add('active_block');
+		messenger.classList.add('active_block');
 	});
 
 	messenger_close.addEventListener('click', () => {
-		messenger.classList.remove('active');
+    document.body.style.overflow = ""; 
+    messenger_main.classList.remove('active_block');
+		messenger.classList.remove('active_block');
 	});
+
+  //burger-list
+
+	const burger_btn = document.querySelector('.burger_menu');
+	const sub_ul_burger = document.querySelector('.sub_ul_burger');
+	const burger_close = document.querySelector('.burger_close');
+
+
+	
+	burger_btn.addEventListener('click', () => {
+    	sub_ul_burger.classList.add('active_block');
+	});
+
+  burger_close.addEventListener('click', () => {
+    sub_ul_burger.classList.remove('active_block');
+});
+
+
 
     

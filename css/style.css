@@ -37,6 +37,7 @@ button {
 
 header {
     z-index: 1;
+    position: relative;
 }
 
 .header_top {
@@ -329,6 +330,36 @@ span:last-child {
     margin-bottom: 0;
 }
 
+.sub_ul_burger {
+    width: 288px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    background: #000000;
+    grid-column: auto;
+    margin-left: -144px;
+    overflow: auto;
+    display: none;
+}
+
+.sub_ul_burger li {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.sub_ul_burger a{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.burger_close {
+    cursor: pointer;
+}
+
 .btn_phone {
     display: none;
     position: relative;
@@ -345,10 +376,22 @@ span:last-child {
     left: 10px;
 }
 
+.messenger_main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
 .window_messenger {
     position: absolute;
     top: 90px;
-    left: 0px;
+    left: 50%;
+    margin-left: -144px;
     width: 288px;
     background: #FFFFFF;
     box-shadow: 0px -5px 12px rgba(0, 0, 0, 0.07);
@@ -358,7 +401,7 @@ span:last-child {
     display: none;
 }
 
-.active {
+.active_block {
     display: block;
 }
 
