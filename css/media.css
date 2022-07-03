@@ -1,4 +1,5 @@
 
+
 @media (max-width: 1740px) {
     .loyalty_photo {
         grid-template: 460px / repeat(auto-fill, minmax(139px, 460px));
@@ -390,7 +391,7 @@
     nav {
         display: none;
     }
-    ul {
+    .ul_level_1 {
         display: none;
     }
     .burger_menu {

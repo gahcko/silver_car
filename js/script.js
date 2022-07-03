@@ -56,8 +56,8 @@
 	});
 
 	messenger_close.addEventListener('click', () => {
-    document.body.style.overflow = ""; 
-    messenger_main.classList.remove('active_block');
+    	document.body.style.overflow = ""; 
+    	messenger_main.classList.remove('active_block');
 		messenger.classList.remove('active_block');
 	});
 
@@ -66,16 +66,30 @@
 	const burger_btn = document.querySelector('.burger_menu');
 	const sub_ul_burger = document.querySelector('.sub_ul_burger');
 	const burger_close = document.querySelector('.burger_close');
-
+	const burger_list = document.querySelector('.burger_menu_list');
+	const burger_arrow = document.querySelectorAll('.burger_arrow');
+	const sub_level_3_burger = document.querySelector('.sub_level_3_burger');
 
 	
+	
 	burger_btn.addEventListener('click', () => {
+    	document.body.style.overflow = "hidden"; 
+    	burger_list.classList.add('active_block');
     	sub_ul_burger.classList.add('active_block');
 	});
 
-  burger_close.addEventListener('click', () => {
-    sub_ul_burger.classList.remove('active_block');
-});
+	burger_close.addEventListener('click', () => {
+		document.body.style.overflow = ""; 
+		burger_list.classList.remove('active_block');
+		sub_ul_burger.classList.remove('active_block');
+	});
+
+	burger_arrow.forEach(function(i) {
+		i.addEventListener('click', () => {
+			i.classList.toggle('arrow_rotate');
+			// sub_level_3_burger.classList.toggle('active_block');
+		});
+	});
 
 
 
