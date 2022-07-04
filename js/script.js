@@ -69,6 +69,8 @@
 	const burger_list = document.querySelector('.burger_menu_list');
 	const burger_arrow = document.querySelectorAll('.burger_arrow');
 	const sub_level_3_burger = document.querySelector('.sub_level_3_burger');
+	const ul_new_car = document.querySelector('.new_car');
+	const arrow_new_car = document.querySelector('.new_arrow');
 
 	
 	
@@ -87,8 +89,12 @@
 	burger_arrow.forEach(function(i) {
 		i.addEventListener('click', () => {
 			i.classList.toggle('arrow_rotate');
-			// sub_level_3_burger.classList.toggle('active_block');
 		});
+	});
+
+	arrow_new_car.addEventListener('click', () => {
+		arrow_new_car.classList.toggle('arrow_rotate');
+		sub_level_3_burger.classList.toggle('active_block');
 	});
 
 

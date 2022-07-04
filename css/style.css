@@ -353,6 +353,14 @@ span:last-child {
     background: #282828;
 }
 
+.sub_ul_level_3_li_burger {
+    position: relative;
+}
+
+.sub_ul_level_3_li_burger .burger_arrow {
+    top: 13px;
+}
+
 .sub_ul_burger a{
     font-family: 'Open Sans';
     font-weight: 600;
@@ -406,7 +414,7 @@ span:last-child {
     position: relative;
 }
 
-.sub_ul_li:hover .burger_arrow {
+.burger_arrow {
     display: block;
 }
 
