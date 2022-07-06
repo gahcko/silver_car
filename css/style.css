@@ -422,6 +422,34 @@ span:last-child {
     transform: rotate(180deg);
 }
 
+.sub_menu_4_photo_burger {
+    display: none;
+    grid-template-columns: 115px 115px;
+    grid-template-rows: repeat(6, 1fr);
+    padding: 0;
+    justify-content: center;
+}
+
+.burger_grid {
+    display: grid;
+}
+
+.sub_level_3_burger {
+    padding: 0;
+}
+
+.sub_level_3_burger li {
+    padding: 0;
+}
+
+.burger_menu_list .sub_ul_li {
+    padding: 0;
+}
+
+.sub_level_3_burger .sub_4_li_photo img {
+    margin-right: 5px;
+}
+
 .messenger_main {
     position: absolute;
     top: 0;

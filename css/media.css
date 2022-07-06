@@ -446,6 +446,9 @@
         grid-template: 110px 340px 170px 290px 50px/ 300px;
     }
     .presentation_wrapper .bmw {
+        display: none;
+    }
+    .presentation_wrapper .bmw_small {
         grid-row: 1 / 1;
         grid-column: 1;
         width: 310px;

@@ -47,6 +47,7 @@
 	const messenger_main = document.querySelector('.messenger_main');
 	const messenger = document.querySelector('.window_messenger');
 	const messenger_close = document.querySelector('.messenger_close');
+	const sub_menu_4_photo_burger = document.querySelector('.sub_menu_4_photo_burger');
 
 	
 	btn_phone.addEventListener('click', () => {
@@ -71,8 +72,10 @@
 	const sub_level_3_burger = document.querySelector('.sub_level_3_burger');
 	const ul_new_car = document.querySelector('.new_car');
 	const arrow_new_car = document.querySelector('.new_arrow');
+	const arrow_last = document.querySelector('.arrow_last');
+	const photo_burger = document.querySelector('.sub_menu_4_photo_burger');
 
-	
+		
 	
 	burger_btn.addEventListener('click', () => {
     	document.body.style.overflow = "hidden"; 
@@ -84,6 +87,12 @@
 		document.body.style.overflow = ""; 
 		burger_list.classList.remove('active_block');
 		sub_ul_burger.classList.remove('active_block');
+		sub_level_3_burger.classList.remove('active_block');
+		burger_arrow.forEach(function(i) {
+			
+				i.classList.remove('arrow_rotate');
+			
+		});
 	});
 
 	burger_arrow.forEach(function(i) {
@@ -93,10 +102,14 @@
 	});
 
 	arrow_new_car.addEventListener('click', () => {
-		arrow_new_car.classList.toggle('arrow_rotate');
 		sub_level_3_burger.classList.toggle('active_block');
 	});
 
+	arrow_last.addEventListener('click', () => {
+		photo_burger.classList.toggle('burger_grid');
+	});
+
+	
 
 
     
