@@ -61,6 +61,37 @@ nav a:hover {
 .about button {
     width: 460px;
     height: 37px;
-    margin-top: 39px;
+    margin-top: 69px;
     cursor: pointer;
+}
+
+h3 {
+    max-width: 505px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.intermed {
+    padding-bottom: 97px;
+}
+
+.interm_descr {
+    max-width: 714px;
+    margin: 14px auto 36px auto;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #494949;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
 }
